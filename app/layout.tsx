@@ -29,7 +29,7 @@ export default function RootLayout({
               <div className="md:hidden p-4 border-b flex items-center">
                 <MobileSidebar />
                 <div className="ml-4 flex items-center">
-                  <span className="font-bold">Money Manager</span>
+                  <span className="font-bold">FinGuard</span>
                 </div>
               </div>
               {children}

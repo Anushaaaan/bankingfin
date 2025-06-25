@@ -69,9 +69,9 @@ export function Sidebar({ className }: SidebarProps) {
         <div className="p-6">
           <div className="flex items-center gap-2 mb-8">
             <div className="h-8 w-8 rounded-full bg-blue-600 flex items-center justify-center">
-              <Image src={Logo} alt="Money Manager" width={30} height={30} className="h-5 w-5 text-white" />
+              <Image src={Logo} alt="FinGuard" width={30} height={30} className="h-5 w-5 text-white" />
             </div>
-            <h1 className="text-xl font-bold">Money Manager</h1>
+            <h1 className="text-xl font-bold">FinGuard</h1>
           </div>
           <div className="space-y-1">
             {routes.map((route) => (
